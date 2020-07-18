@@ -581,6 +581,29 @@ p {
   margin-bottom: 10px;
 }
 
+.Cbtn {
+  position: absolute;
+  top: 75%;
+  left: 60%;
+  border-radius: 50%;
+  background-color: #eaeaea;
+  z-index: 99;
+  padding: 8px 6px;
+  border-radius: 1px solid black;
+  box-shadow: 0 0 5px rgb(161, 156, 156);
+  cursor: pointer;
+}
+
+.Cbtn2 {
+  left: 55%;
+}
+.Cbtn3 {
+  left: 50%;
+}
+.Cbtn4 {
+  left: 45%;
+}
+
 .font {
   font-weight: 500;
   font-size: small;
