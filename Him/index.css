@@ -684,6 +684,11 @@ strong {
 }
 
 @media (max-width: 768px) {
+  .page2 {
+    left: -40px;
+    width: 100%;
+    height: 100%;
+  }
   .center {
     flex-direction: column;
     height: 150vh;
@@ -700,6 +705,18 @@ strong {
     flex-direction: column;
     top: 5vh;
     width: 100%;
+  }
+  .Cbtn {
+    left: 70%;
+  }
+  .Cbtn2 {
+    left: 60%;
+  }
+  .Cbtn3 {
+    left: 50%;
+  }
+  .Cbtn4 {
+    left: 40%;
   }
 }
 

@@ -50,6 +50,7 @@ function init() {
     imgggg.style.display = "none";
     imggggg.style.display = "block";
   });
+  Cbtn1.classList.add("ch");
 }
 
 init();
