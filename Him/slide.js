@@ -4,6 +4,10 @@ const slider = document.querySelectorAll(".slider");
 const Aprev = document.getElementById("prev");
 const Anext = document.getElementById("next");
 
+const Graph = document.querySelector(".Graph");
+const GraphBox1 = document.querySelector(".GraphBox1");
+const GraphBox2 = document.querySelector(".GraphBox2");
+
 let slideHeight = 0;
 let slideCount = slider.length;
 let currentIndex = 0;
