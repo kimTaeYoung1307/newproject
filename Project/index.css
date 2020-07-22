@@ -1004,7 +1004,7 @@ p {
 }
 .BusinessInfo li {
   font-size: 10px;
-  color: rgb(114, 114, 114);
+  color: rgb(114, 114, 113);
   display: flex;
 }
 @media (max-width: 768px) {
