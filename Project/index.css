@@ -191,14 +191,14 @@ li button:hover {
   position: relative;
   left: 5vw;
   padding-top: 16vh;
-  padding-left: 6vw;
+  padding-left: 3vw;
 }
 
 .Helle {
   position: relative;
   left: 5vw;
   margin-top: -0.7vh;
-  padding-left: 6.1vw;
+  padding-left: 3.1vw;
 }
 
 .js-title {
@@ -408,8 +408,8 @@ p {
 
 .page2 {
   position: relative;
-  width: 1060px;
-  height: 400px;
+  width: 70vw;
+  height: 50vh;
   background-color: rgb(109, 108, 104);
   display: flex;
   filter: drop-shadow(5px 5px 10px rgb(176, 176, 177));
@@ -531,6 +531,19 @@ p {
   margin-bottom: 20px;
 }
 
+.event_names {
+  background-image: linear-gradient(
+    to right,
+    #eea2a2 0%,
+    #bbc1bf 19%,
+    #57c6e1 42%,
+    #b49fda 79%,
+    #7ac5d8 100%
+  );
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+
 .event_name {
   height: 10%;
   width: 100%;
@@ -541,6 +554,7 @@ p {
   padding-top: 10px;
   padding-left: 30px;
   margin-bottom: 10px;
+  color: rgb(63, 62, 62);
 }
 
 .Cbtn {
@@ -603,10 +617,23 @@ strong {
   content: "";
 }
 
+.imgss {
+  height: 35vh;
+  width: 100%;
+  overflow: hidden;
+}
+
 .imgs {
   vertical-align: top;
   height: 100%;
   width: 100%;
+}
+
+.imgsm {
+  vertical-align: top;
+  height: 100%;
+  width: 60%;
+  transform: rotate(45deg);
 }
 
 .imgs2 {
@@ -626,6 +653,18 @@ strong {
   box-sizing: border-box;
   padding-right: 3.1%;
 }
+.channel_names {
+  background-image: linear-gradient(
+    to right,
+    #eea2a2 0%,
+    #bbc1bf 19%,
+    #57c6e1 42%,
+    #b49fda 79%,
+    #7ac5d8 100%
+  );
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
 .Cfont {
   padding-top: 15px;
   display: flex;
@@ -643,18 +682,35 @@ strong {
   padding: 5px;
   width: 10%;
   height: 5%;
-  border: 1px solid black;
+  box-shadow: 5px 0 5px rgb(92, 90, 90);
+}
+
+.Cfont h3 {
+  padding-left: 1vw;
+  color: rgb(63, 62, 62);
 }
 
 @media (max-width: 768px) {
   .page2 {
-    left: -40px;
+    left: -12vw;
     width: 100%;
     height: 100%;
+    min-width: 580px;
+  }
+  .page1 {
+    width: 100%;
+    height: 100%;
+    min-width: 600px;
+  }
+  .Hello {
+    padding-left: 15vw;
+  }
+  .Helle {
+    padding-left: 15.1vw;
   }
   .center {
     flex-direction: column;
-    height: 150vh;
+    height: 160vh;
   }
   .eventbox {
     height: 100%;
@@ -664,10 +720,11 @@ strong {
     flex-direction: column;
     width: 100%;
     text-align: center;
+    min-width: 600px;
   }
   .channel {
     flex-direction: column;
-    top: 5vh;
+
     width: 100%;
     text-align: center;
   }
@@ -685,6 +742,10 @@ strong {
   }
   .Cbtn4 {
     left: 40%;
+  }
+
+  .imgsm {
+    width: 35%;
   }
 }
 
@@ -808,7 +869,7 @@ p {
   }
   .BottomL {
     width: 100%;
-
+    min-width: 600px;
     margin-bottom: 12vh;
     height: 50vh;
   }
@@ -823,12 +884,20 @@ p {
   .BottomR {
     flex-direction: column;
   }
+  #prev {
+    margin-left: -40px;
+    top: 95%;
+  }
+  #next {
+    margin-left: 40px;
+    top: 95%;
+  }
 }
 
 .end {
   position: relative;
   width: 100%;
-  height: 35vh;
+  height: 30vh;
   background-color: #263343;
 }
 .footer {
@@ -853,13 +922,16 @@ p {
 
 .fa-youtube {
   color: red;
+  cursor: pointer;
 }
 .fa-instagram {
   color: rgb(202, 65, 157);
+  cursor: pointer;
 }
 
 .fa-facebook-square {
   color: rgb(15, 72, 194);
+  cursor: pointer;
 }
 
 .footLogo {
@@ -867,12 +939,14 @@ p {
   padding-bottom: 20px;
   padding-left: 50px;
   height: 5vh;
-  width: 100%;
+
+  background-color: #263343;
   border-bottom: 2px solid rgb(128, 127, 127);
 }
 
 .Business {
   display: flex;
+  background-color: #263343;
 }
 
 .customarS {
@@ -906,6 +980,8 @@ p {
   display: inline-block;
   width: 10vw;
   margin-left: 70%;
+  color: var(--text--color);
+  cursor: pointer;
 }
 
 .BusinessInfo {
@@ -936,5 +1012,14 @@ p {
     position: relative;
     width: 100%;
     height: 20vh;
+  }
+  .family {
+    display: none;
+  }
+  .customarS {
+    min-width: 300px;
+  }
+  .BusinessInfo {
+    display: none;
   }
 }
