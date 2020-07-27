@@ -408,8 +408,9 @@ p {
 
 .page2 {
   position: relative;
-  width: 70vw;
+  width: 70%;
   height: 50vh;
+  left: 10%;
   background-color: rgb(109, 108, 104);
   display: flex;
   filter: drop-shadow(5px 5px 10px rgb(176, 176, 177));
@@ -499,6 +500,19 @@ p {
 }
 
 /* center*/
+
+.ex {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+}
+
+.ex:hover {
+  opacity: 1;
+  background-color: white;
+  border-radius: 8px;
+}
 
 .eventbox {
   max-width: 1600px;
@@ -632,8 +646,7 @@ strong {
 .imgsm {
   vertical-align: top;
   height: 100%;
-  width: 60%;
-  transform: rotate(45deg);
+  width: 80%;
 }
 
 .imgs2 {
@@ -679,6 +692,7 @@ strong {
   cursor: pointer;
   margin-top: 12px;
   margin-right: 8px;
+  font-size: 12px;
   padding: 5px;
   width: 10%;
   height: 5%;
@@ -745,7 +759,7 @@ strong {
   }
 
   .imgsm {
-    width: 35%;
+    width: 90%;
   }
 }
 
@@ -824,8 +838,7 @@ h2 {
 }
 
 .gts:hover {
-  background-color: gray;
-  opacity: 0.5;
+  background-color: white;
 }
 
 .NOTICE {

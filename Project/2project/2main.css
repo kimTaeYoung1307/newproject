@@ -1,0 +1,214 @@
+html,
+body,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+.fooll {
+  width: 100%;
+  height: 100vh;
+}
+
+.nav {
+  position: relative;
+  width: 100%;
+  height: 100px;
+  z-index: 99;
+  color: white;
+}
+
+.navContent {
+  height: 100%;
+  width: 60%;
+  margin: 0 auto;
+  border-bottom: 1px solid white;
+}
+.menu {
+  display: inline-block;
+  float: left;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  cursor: pointer;
+}
+
+.menu a {
+  margin-left: 20px;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.imglogo {
+  display: inline-block;
+  float: right;
+  padding-top: 22px;
+  padding-bottom: 22px;
+  cursor: pointer;
+}
+.fas {
+  font-size: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+/*rotate*/
+
+.prev {
+  position: absolute;
+  color: white;
+  display: block;
+  left: 5%;
+  top: 40vh;
+}
+.fa-chevron-left {
+  font-size: 70px;
+}
+
+.fa-chevron-left:hover {
+  color: gray;
+}
+.next {
+  position: absolute;
+  color: white;
+  display: block;
+  right: 5%;
+  top: 40vh;
+}
+.fa-chevron-right {
+  font-size: 70px;
+}
+
+.fa-chevron-right:hover {
+  color: gray;
+}
+
+.Rimg {
+  top: 0;
+  left: 0;
+  position: absolute;
+  width: 100%;
+  height: auto;
+  z-index: -1;
+}
+.Rimg1 {
+  top: 0;
+  left: 0;
+  position: absolute;
+  width: 100%;
+  height: auto;
+}
+
+.Rtext {
+  color: white;
+  margin-left: 10%;
+}
+
+h2 {
+  font-size: 40px;
+  font-weight: 500;
+}
+
+span {
+  font-size: 30px;
+  font-weight: 400;
+}
+
+/*footer*/
+.content {
+  position: absolute;
+  top: 85%;
+  width: 100%;
+  height: 1px;
+}
+.hidden {
+  background-color: rgb(250, 247, 243);
+  top: 0;
+  position: absolute;
+  width: 80%;
+  left: 10%;
+  height: 700px;
+  z-index: 9999;
+}
+
+.number {
+  position: absolute;
+  top: 15%;
+  width: 80%;
+  height: 10%;
+  left: 10%;
+  border-bottom: 1px solid rgb(182, 180, 180);
+  border-top: 1px solid rgb(182, 180, 180);
+}
+
+.NI {
+  cursor: pointer;
+}
+
+.number a {
+  display: inline-block;
+  margin-top: 35px;
+  padding-left: 40px;
+  opacity: 0.5;
+}
+
+.down {
+  text-align: center;
+}
+
+.fa-arrow-down {
+  padding-top: 20px;
+  color: gray;
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.bar {
+  position: absolute;
+  top: 95%;
+  width: 4%;
+  height: 5%;
+  left: 25px;
+  background-color: rgb(20, 17, 218);
+  border-radius: 6px;
+}
+.hiddenImg {
+  position: absolute;
+  width: 320px;
+  top: 30%;
+  left: 10%;
+  height: auto;
+  opacity: 0;
+}
+.e {
+  opacity: 1;
+}
+.hiddenName {
+  display: block;
+  margin-bottom: 30px;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.b {
+  display: block;
+  color: rgb(90, 90, 90);
+  cursor: pointer;
+}
+
+.fa-angle-right {
+  padding-left: 0;
+  padding-right: 10px;
+}
+
+.png {
+  width: 320px;
+  height: 190px;
+}
+
+.left {
+  left: 35%;
+}
+
+.left2 {
+  left: 60%;
+}
